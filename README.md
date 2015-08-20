@@ -70,10 +70,9 @@ coming soon!
 MIT License
 
 ## Autor:
-Ricardo Ferreira
-
+<pre>
+<b>Ricardo Ferreira</b>
 Software Engineer at CESAR
-
 Instagram: ricardo7307
-
 Twitter: ricardo_7307
+</pre>
