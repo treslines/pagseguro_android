@@ -18,8 +18,16 @@ Foi pensando nessa necessidade, que decidi criar uma integração completa. Este
 <li>6) Permite a configuração dos dados da conta do pagseguro através do xml de preferencias</li>
 
 ## Bibliotecas usadas:
-Para que o exemplo funcione, usamos uma biblioteca de REST bem popular usada pelo intagram, Pinterest e outros chamada; Android Asynchronous Http Client, que pode ser encontrada no link: http://loopj.com/android-async-http/
+Para que o exemplo funcione, usamos uma única biblioteca de REST bem popular também usada pelo intagram, Pinterest e outros chamada; Android Asynchronous Http Client, que pode ser encontrada no link: http://loopj.com/android-async-http/
 
+Ela esta sendo referenciada no build.gradle da app (Module:app)
+```xml
+dependencies {
+...
+    compile 'com.loopj.android:android-async-http:1.4.8'
+...
+}
+```
 ## Exemplo de uso (super simples):
 Depois que o cliente adicionou seus produtos ao seu carrinho (shoppingCart), criamos os objetos da pagseguro com a factory e efetuamos o pagamento. Neste exemplo estamos simulando uma compra simples de apenas um item (playstation)
 ```java
