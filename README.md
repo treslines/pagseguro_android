@@ -23,7 +23,25 @@ Foi pensando nessa necessidade, que decidi criar uma integração completa. Este
 ## Bibliotecas usadas:
 Para que o exemplo funcione, usamos uma biblioteca de REST bem popular usada pelo intagram, Pinterest e outros chamada; Android Asynchronous Http Client, que pode ser encontrada no link: http://loopj.com/android-async-http/
 
+## Exemplo de uso (super simples):
+```java
+// ... 
+// simulating an user buying a playstation
+final PagSeguroFactory pagseguro = PagSeguroFactory.instance();
+List<PagSeguroItem> shoppingCart = new ArrayList<>();
+shoppingCart.add(pagseguro.item("123", "PlayStation", BigDecimal.valueOf(3.50), 1, 300));
+PagSeguroPhone buyerPhone = pagseguro.phone(PagSeguroAreaCode.DDD81, "998187427");
+PagSeguroBuyer buyer = pagseguro.buyer("Ricardo Ferreira", "14/02/1978", "15061112000", "test@email.com.br", buyerPhone);
+PagSeguroAddress buyerAddress = pagseguro.address("Av. Boa Viagem", "51", "Apt201", "Boa Viagem", "51030330", "Recife", PagSeguroBrazilianStates.PERNAMBUCO);
+PagSeguroShipping buyerShippingOption = pagseguro.shipping(PagSeguroShippingType.PAC, buyerAddress);
+PagSeguroCheckout checkout = pagseguro.checkout("Ref0001", shoppingCart, buyer, buyerShippingOption);
+// starting payment process
+new PagSeguroPayment(MainActivity.this).pay(checkout.buildCheckoutXml());
+// ...
+```
+
 ## Imagens:
+coming soon!
 
 ## Contribuições - As exigências são mínimas:
 1) As Classes devem seguir o mesmo padrão das classes modelo com javadoc
