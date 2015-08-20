@@ -20,6 +20,8 @@ Foi pensando nessa necessidade, que decidi criar uma integração completa. Este
 
 5) Exibe progresso diretamente na actionbar e atualiza os titulos de acordo com as etapas do pagamento
 
+6) Permite a configuração dos dados da conta do pagseguro através do xml de preferencias
+
 ## Bibliotecas usadas:
 Para que o exemplo funcione, usamos uma biblioteca de REST bem popular usada pelo intagram, Pinterest e outros chamada; Android Asynchronous Http Client, que pode ser encontrada no link: http://loopj.com/android-async-http/
 
