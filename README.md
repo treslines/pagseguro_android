@@ -11,9 +11,13 @@ Foi pensando nessa necessidade, que decidi criar uma integração completa. Este
 
 ## Funções do aplicativo:
 1) Oferece um modelo simples para criação de produtos de acordo com as especifiações da pagseguro
+
 2) A criação de produtos valida as entradas a nível de programação para evitar erros durante a codificação
+
 3) Prevê os cenários/fluxos de navegação em caso de cancelamento, sucesso e erro exibindo mensagens
+
 4) Não requer nenhum aplicativo da pagseguro pre-instalado e realiza as transações atraves de webservices
+
 5) Exibe progresso diretamente na actionbar e atualiza os titulos de acordo com as etapas do pagamento
 
 ## Bibliotecas usadas:
@@ -23,6 +27,7 @@ Para que o exemplo funcione, usamos uma biblioteca de REST bem popular usada pel
 
 ## Contribuições - As exigências são mínimas:
 1) As Classes devem seguir o mesmo padrão das classes modelo com javadoc
+
 2) Faça um fork do projeto, implemente sua contribuição, faça um pool request para este projeto
 
 ## Licença:
