@@ -42,6 +42,18 @@ new PagSeguroPayment(MainActivity.this).pay(checkout.buildCheckoutXml());
 // ...
 ```
 
+## Preferências Pagseguro
+```xml
+<resources>
+    <!-- we are using pagseguro's sandbox values here. -->
+    <!-- you can use your onw values and after tests, use the real values -->
+    <string name="pagseguro_vendor_email">yourPagSeguroEmail</string>
+    <string name="pagseguro_vendor_token">yourPagSeguroToken</string>
+    <string name="pagseguro_webservice_checkout_address">https://ws.sandbox.pagseguro.uol.com.br/v2/checkout?email=%s&amp;token=%s</string>
+    <string name="pagseguro_payment_page">https://sandbox.pagseguro.uol.com.br/v2/checkout/payment.html?code=%s</string>
+</resources>
+```
+
 ## Imagens:
 coming soon!
 
