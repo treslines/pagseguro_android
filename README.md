@@ -35,6 +35,9 @@ MIT License
 
 ## Autor:
 Ricardo Ferreira
+
 Software Engineer at CESAR
+
 Instagram: ricardo7307
+
 Twitter: ricardo_7307
