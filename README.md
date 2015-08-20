@@ -32,3 +32,9 @@ Para que o exemplo funcione, usamos uma biblioteca de REST bem popular usada pel
 
 ## Licença:
 MIT License
+
+## Autor:
+Ricardo Ferreira
+Software Engineer at CESAR
+Instagram: ricardo7307
+Twitter: ricardo_7307
