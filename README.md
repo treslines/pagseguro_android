@@ -43,6 +43,7 @@ new PagSeguroPayment(MainActivity.this).pay(checkout.buildCheckoutXml());
 ```
 
 ## Preferências Pagseguro
+O arquivo de preferências se chama: pagseguro.xml
 ```xml
 <resources>
     <!-- we are using pagseguro's sandbox values here. -->
