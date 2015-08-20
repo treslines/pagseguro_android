@@ -75,5 +75,5 @@ MIT License
 Software Engineer at CESAR
 Instagram: ricardo7307
 Twitter: ricardo_7307
-Blog: http://www.cleancodedevelopment-qualityseal.blogspot.com.br
+Blog: <a href="http://www.cleancodedevelopment-qualityseal.blogspot.com.br">http://www.cleancodedevelopment-qualityseal.blogspot.com.br</a>
 </pre>
