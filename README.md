@@ -26,6 +26,7 @@ Foi pensando nessa necessidade, que decidi criar uma integração completa. Este
 Para que o exemplo funcione, usamos uma biblioteca de REST bem popular usada pelo intagram, Pinterest e outros chamada; Android Asynchronous Http Client, que pode ser encontrada no link: http://loopj.com/android-async-http/
 
 ## Exemplo de uso (super simples):
+Depois que o cliente adicionou seus produtos ao seu carrinho (shoppingCart), criamos os objetos da pagseguro com a factory e efetuamos o pagamento. Neste exemplo estamos simulando uma compra simples de apenas um item (playstation)
 ```java
 // ... 
 // simulating an user buying a playstation
