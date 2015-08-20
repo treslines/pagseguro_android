@@ -18,7 +18,7 @@ Foi pensando nessa necessidade, que decidi criar uma integração completa. Este
 <li> Permite a configuração dos dados da conta do pagseguro através do xml de preferencias</li>
 
 ## Bibliotecas usadas:
-Para que o exemplo funcione, usamos uma única biblioteca de REST bem popular também usada pelo intagram, Pinterest e outros chamada; Android Asynchronous Http Client, que pode ser encontrada no link: http://loopj.com/android-async-http/
+Para que o exemplo funcione, usamos uma única biblioteca de REST bem popular também usada pelo intagram, Pinterest e outros chamada: Android Asynchronous Http Client. Esta biblioteca usa a licença Apache 2.0. Ela pode ser encontrada no link: http://loopj.com/android-async-http/
 
 Ela esta sendo referenciada no build.gradle da app (Module:app)
 ```xml
@@ -72,7 +72,7 @@ MIT License
 ## Autor:
 <pre>
 <b>Ricardo Ferreira</b>
-Software Engineer at CESAR
+Software Engineer at CESAR <a href="http://www.cesar.com.br">http://www.cesar.com.br</a>
 Instagram: ricardo7307
 Twitter: ricardo_7307
 Blog: <a href="http://www.cleancodedevelopment-qualityseal.blogspot.com.br">http://www.cleancodedevelopment-qualityseal.blogspot.com.br</a>
