@@ -3,9 +3,9 @@ Integração de pagseguro para android sem usar os aplicativos nativos da pagseg
 
 ## Introdução:
 A maioria dos desenvolvedores sabem que a integração do pagseguro para android ainda é algo muito "chato". A integração com os aplicativos nativos da pagseguro ou wallet(carteira) obriga os desenvolvedores a ter os aplicativos
-instalados e não funcionam perfeitamente. Me aventurando nessa linha, rapidamente percebi que este caminho é muito cheios de impecílios e gerava um monte de código de validação extra.
+instalados e não funcionam perfeitamente. Me aventurando nessa linha, rapidamente percebi que este caminho é muito cheio de impecílios e gerava um monte de código de validação extra.
 
-Noentando a pagseguro é bem popular e já tem um grau de maturidade interessante. Os consumidores brasileiros se sentem a vontade pagando com ela, pois a pagseguro tem todo um processo de validação e autorização de pagamentos, além de permitir a abertura de disputas em casos de fraude. Isso lhe torna um meio de pagamento indispensável no mercado brasileiro.
+No entando a pagseguro é bem popular e já tem um grau de maturidade interessante. Os consumidores brasileiros se sentem a vontade pagando com ela, pois a pagseguro tem todo um processo de validação e autorização de pagamentos, além de permitir a abertura de disputas em casos de fraude. Isso lhe torna um meio de pagamento indispensável no mercado brasileiro.
 
 Foi pensando nessa necessidade, que decidi criar uma integração completa. Este aplicativo de demostração atende às necessidades mínimas do programador e em 90% dos casos é mais do que suficiente para a maioria dos aplicativos, que desejam vender algum tipo de pŕoduto. 
 
@@ -15,12 +15,12 @@ Foi pensando nessa necessidade, que decidi criar uma integração completa. Este
 <li> Prevê os cenários/fluxos de navegação em caso de cancelamento, sucesso e erro exibindo mensagens</li>
 <li> Não requer nenhum aplicativo da pagseguro pre-instalado e realiza as transações atraves de webservices</li>
 <li> Exibe progresso diretamente na actionbar e atualiza os titulos de acordo com as etapas do pagamento</li>
-<li> Permite a configuração dos dados da conta do pagseguro através do xml de preferencias</li>
+<li> Permite a configuração dos dados da conta do pagseguro através do xml de preferências</li>
 
 ## Bibliotecas usadas:
-Para que o exemplo funcione, usamos uma única biblioteca de REST bem popular também usada pelo intagram, Pinterest e outros chamada: Android Asynchronous Http Client. Esta biblioteca usa a licença Apache 2.0. Ela pode ser encontrada no link: http://loopj.com/android-async-http/
+Para que o exemplo funcione, usamos uma única biblioteca de REST bem popular também usada pelo Instagram, Pinterest e outros chamada: Android Asynchronous Http Client. Esta biblioteca usa a licença Apache 2.0. Ela pode ser encontrada no link: http://loopj.com/android-async-http/
 
-Ela esta sendo referenciada no build.gradle da app (Module:app)
+Ela está sendo referenciada no build.gradle da app (Module:app)
 ```xml
 dependencies {
 ...
@@ -48,7 +48,7 @@ new PagSeguroPayment(MainActivity.this).pay(checkout.buildCheckoutXml());
 
 ## Preferências Pagseguro
 O arquivo de preferências se chama: <b>pagseguro.xml</b><br/> 
-<b><font color="red">IMPORTANTE:</font></b> Antes de rodar o exemplo, certifique-se que você substituiu as preferências abaixo pelas suas. Caso contrário o exemplo não irá funcionar! Este exemplo esta configurado para rodar em modo <b>SANDBOX</b>, ou seja, não será realizada nenhuma transação de "verdade". Após seus testes, basta substituir as url's de sandbox, pelas reais.
+<b><font color="red">IMPORTANTE:</font></b> Antes de rodar o exemplo, certifique-se que você substituiu as preferências abaixo pelas suas. Caso contrário o exemplo não irá funcionar! Este exemplo está configurado para rodar em modo <b>SANDBOX</b>, ou seja, não será realizada nenhuma transação de "verdade". Após seus testes, basta substituir as url's de sandbox, pelas reais.
 ```xml
 <resources>
     <!-- we are using pagseguro's sandbox values here. -->
@@ -61,7 +61,7 @@ O arquivo de preferências se chama: <b>pagseguro.xml</b><br/>
 ```
 
 ## Como criar uma conta pagseguro/sandbox?
-Para isso siga o passo a passo do post no meu blog:
+Para isso siga o passo-a-passo do post no meu blog:
 http://cleancodedevelopment-qualityseal.blogspot.com.br/2015/08/how-to-runinstall-pagseguro-on-android.html
 
 
@@ -83,8 +83,8 @@ http://cleancodedevelopment-qualityseal.blogspot.com.br/2015/08/how-to-runinstal
 
 
 ## Contribuições - As exigências são mínimas:
-<li> As Classes devem seguir o mesmo padrão das classes modelo com javadoc</li>
-<li> Faça um fork do projeto, implemente sua contribuição, faça um pool request para este projeto</li>
+<li> As classes devem seguir o mesmo padrão das classes modelo com javadoc</li>
+<li> Faça um fork do projeto, implemente sua contribuição, faça um pull request para este projeto</li>
 
 ## Licença:
 MIT License
