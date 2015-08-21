@@ -60,7 +60,21 @@ O arquivo de preferências se chama: pagseguro.xml
 ```
 
 ## Imagens:
-<img src="http://3.bp.blogspot.com/-3lXx-ZQnaPk/VdZlwsX0_3I/AAAAAAAACC0/j46MNNCWnC0/s1600/Screenshot_2015-08-20-07-51-38.png" alt="1" style="width:100px;height:177px;">
+<img src="http://3.bp.blogspot.com/-3lXx-ZQnaPk/VdZlwsX0_3I/AAAAAAAACC0/j46MNNCWnC0/s1600/Screenshot_2015-08-20-07-51-38.png" alt="1"  style="width:100px;height:177px;">
+<img src="http://2.bp.blogspot.com/-ZOUn2wNzvho/VdZlwyFEdzI/AAAAAAAACC8/yQWxuGYijEs/s1600/Screenshot_2015-08-20-07-51-52.png" alt="2"  style="width:100px;height:177px;">
+<img src="http://4.bp.blogspot.com/-TSsN_4Vjkak/VdZlxQNokbI/AAAAAAAACDI/Ze-0oUkRYhc/s1600/Screenshot_2015-08-20-07-52-06.png" alt="3"  style="width:100px;height:177px;">
+<img src="http://2.bp.blogspot.com/-JZNHY7Oon9M/VdZlyHzP6-I/AAAAAAAACDY/fWexLKjGbdI/s1600/Screenshot_2015-08-20-07-52-36.png" alt="4"  style="width:100px;height:177px;">
+<img src="http://1.bp.blogspot.com/-CKvNa8ETzO4/VdZlyEYGqxI/AAAAAAAACDU/yTgTjKQR7f0/s1600/Screenshot_2015-08-20-13-01-12.png" alt="5"  style="width:100px;height:177px;">
+<img src="http://4.bp.blogspot.com/-5H0N-VwtElc/VdZlyUCvgcI/AAAAAAAACDc/CZH8WffZI8A/s1600/Screenshot_2015-08-20-13-01-45.png" alt="6"  style="width:100px;height:177px;">
+<img src="http://2.bp.blogspot.com/-1OsWP6RusI4/VdZly4YHjKI/AAAAAAAACDo/mkNPtyByC8Y/s1600/Screenshot_2015-08-20-13-02-13.png" alt="7"  style="width:100px;height:177px;">
+<img src="http://4.bp.blogspot.com/-ZQ6Wnuu6Flk/VdZlzNCgrPI/AAAAAAAACDw/lOJDm2MhKGY/s1600/Screenshot_2015-08-20-13-02-25.png" alt="8"  style="width:100px;height:177px;">
+<img src="http://2.bp.blogspot.com/-IzBh9rgfBro/VdZlzAZM5hI/AAAAAAAACD0/xghKW9ndU70/s1600/Screenshot_2015-08-20-13-02-31.png" alt="9"  style="width:100px;height:177px;">
+<img src="http://4.bp.blogspot.com/-RL4DZBl6BIE/VdZlzkovC3I/AAAAAAAACD8/VIvwsAQHFXc/s1600/Screenshot_2015-08-20-13-02-36.png" alt="10"  style="width:100px;height:177px;">
+<img src="http://3.bp.blogspot.com/-8IZrEW7Atnc/VdZlz208VRI/AAAAAAAACEI/5dq5ARohggw/s1600/Screenshot_2015-08-20-13-02-57.png" alt="11"  style="width:100px;height:177px;">
+<img src="http://3.bp.blogspot.com/-Qpd2pzLuebo/VdZl0TZfW2I/AAAAAAAACEQ/X5CxzIDDIh4/s1600/Screenshot_2015-08-20-13-03-08.png" alt="12"  style="width:100px;height:177px;">
+<img src="http://1.bp.blogspot.com/-9bo7lGHTAh4/VdZl0SJ3TNI/AAAAAAAACEU/VZwlu8nf97c/s1600/Screenshot_2015-08-20-13-03-32.png" alt="13"  style="width:100px;height:177px;">
+<img src="http://2.bp.blogspot.com/-x0E4-9oIL8w/VdZl0gB13rI/AAAAAAAACEc/7CbdDKcYfes/s1600/Screenshot_2015-08-20-13-03-48.png" alt="14"  style="width:100px;height:177px;">
+
 
 ## Contribuições - As exigências são mínimas:
 <li> As Classes devem seguir o mesmo padrão das classes modelo com javadoc</li>
