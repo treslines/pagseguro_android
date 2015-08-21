@@ -60,6 +60,11 @@ O arquivo de preferências se chama: <b>pagseguro.xml</b><br/>
 </resources>
 ```
 
+## Como criar uma conta pagseguro/sandbox?
+Para isso siga o passo a passo do post no meu blog:
+http://cleancodedevelopment-qualityseal.blogspot.com.br/2015/08/how-to-runinstall-pagseguro-on-android.html
+
+
 ## Imagens:
 <img src="http://3.bp.blogspot.com/-3lXx-ZQnaPk/VdZlwsX0_3I/AAAAAAAACC0/j46MNNCWnC0/s1600/Screenshot_2015-08-20-07-51-38.png" alt="1"  style="width:100px;height:177px;">
 <img src="http://2.bp.blogspot.com/-ZOUn2wNzvho/VdZlwyFEdzI/AAAAAAAACC8/yQWxuGYijEs/s1600/Screenshot_2015-08-20-07-51-52.png" alt="2"  style="width:100px;height:177px;">
