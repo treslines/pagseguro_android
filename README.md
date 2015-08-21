@@ -36,9 +36,9 @@ Depois que o cliente adicionou seus produtos ao seu carrinho (shoppingCart), cri
 final PagSeguroFactory pagseguro = PagSeguroFactory.instance();
 List<PagSeguroItem> shoppingCart = new ArrayList<>();
 shoppingCart.add(pagseguro.item("123", "PlayStation", BigDecimal.valueOf(3.50), 1, 300));
-PagSeguroPhone buyerPhone = pagseguro.phone(PagSeguroAreaCode.DDD81, "998187427");
-PagSeguroBuyer buyer = pagseguro.buyer("Ricardo Ferreira", "14/02/1978", "15061112000", "test@email.com.br", buyerPhone);
-PagSeguroAddress buyerAddress = pagseguro.address("Av. Boa Viagem", "51", "Apt201", "Boa Viagem", "51030330", "Recife", PagSeguroBrazilianStates.PERNAMBUCO);
+PagSeguroPhone buyerPhone = pagseguro.phone(PagSeguroAreaCode.DDD81, "91111112222");
+PagSeguroBuyer buyer = pagseguro.buyer("Albert Einstein", "04/03/1879", "11122233300", "test@email.com.br", buyerPhone);
+PagSeguroAddress buyerAddress = pagseguro.address("Av. Abc", "99", "Apt507", "Bairro", "12345678", "Cidade", PagSeguroBrazilianStates.PERNAMBUCO);
 PagSeguroShipping buyerShippingOption = pagseguro.shipping(PagSeguroShippingType.PAC, buyerAddress);
 PagSeguroCheckout checkout = pagseguro.checkout("Ref0001", shoppingCart, buyer, buyerShippingOption);
 // starting payment process
