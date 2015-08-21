@@ -60,7 +60,7 @@ O arquivo de preferências se chama: pagseguro.xml
 ```
 
 ## Imagens:
-<img src="null" alt="coming soon!" >
+<img src="http://3.bp.blogspot.com/-3lXx-ZQnaPk/VdZlwsX0_3I/AAAAAAAACC0/j46MNNCWnC0/s1600/Screenshot_2015-08-20-07-51-38.png" alt="1" style="width:100px;height:177px;">
 
 ## Contribuições - As exigências são mínimas:
 <li> As Classes devem seguir o mesmo padrão das classes modelo com javadoc</li>
