@@ -9,9 +9,10 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-// restfull samples found here:
-// http://programmerguru.com/android-tutorial/android-restful-webservice-tutorial-how-to-call-restful-webservice-in-android-part-3/
-// http://loopj.com/android-async-http/
+/**
+ * Shows how the payment process works with pagseguro.
+ * Simulates an user buying a playstation using your sandbox account.
+ */
 public class MainActivity extends ActionBarActivity {
 
     @Override

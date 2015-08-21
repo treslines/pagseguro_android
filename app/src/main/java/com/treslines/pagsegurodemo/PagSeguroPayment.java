@@ -30,23 +30,6 @@ public class PagSeguroPayment {
     private Activity activity;
     private ProgressDialog progressDialog;
 
-    // IMPORTANT: Sandbox test values you'll get from your pagseguro account:
-    // VENDER > Ferraments de Desenvolvedor > Sandbox > Comprador de teste e venddor
-
-    // sandbox test app crededials - values from pagseguro account
-//    private static final String PAG_SEGURO_WS_SANDBOX_CHECKOUT = "https://ws.sandbox.pagseguro.uol.com.br/v2/checkout?email=%s&token=%s";
-//    private static final String PAG_SEGURO_SANDBOX_PAYMENT_PAGE = "https://sandbox.pagseguro.uol.com.br/v2/checkout/payment.html?code=%s";
-//
-//    private static final String PAG_SEGURO_WS_REAL_CHECKOUT = "https://ws.pagseguro.uol.com.br/v2/checkout";
-//    private static final String PAG_SEGURO_REAL_PAYMENT_PAGE = "https://pagseguro.uol.com.br/v2/checkout/payment.html?code=%s";
-//
-//    // sandbox test vendor - values from pagseguro account
-//    private static final String PAG_SEGURO_TEST_VENDOR_EMAIL = "ricardo_7307@yahoo.com";
-//    private static final String PAG_SEGURO_TEST_VENDOR_TOKEN = "473D66C9C7EA490EB6529B95DFADE0BF";
-//
-//    private static final String PAG_SEGURO_REAL_VENDOR_EMAIL = "you@email.com";
-//    private static final String PAG_SEGURO_REAL_VENDOR_TOKEN = "number_you_get_from_your_account";
-
     public static final String PAG_SEGURO_EXTRA = "PAG_SEGURO_EXTRA";
     public static final int PAG_SEGURO_REQUEST_CODE = 111;
     public static final int PAG_SEGURO_REQUEST_SUCCESS_CODE = 222;
