@@ -47,8 +47,8 @@ new PagSeguroPayment(MainActivity.this).pay(checkout.buildCheckoutXml());
 ```
 
 ## Preferências Pagseguro
-O arquivo de preferências se chama: pagseguro.xml<br/> 
-<b><font color="red">IMPORTANTE:</font></b> Antes de rodar o exemplo, certifique-se que você substituiu as preferências abaixo pelas suas. Caso contrário o exemplo não irá funcionar!
+O arquivo de preferências se chama: <b>pagseguro.xml</b><br/> 
+<b><font color="red">IMPORTANTE:</font></b> Antes de rodar o exemplo, certifique-se que você substituiu as preferências abaixo pelas suas. Caso contrário o exemplo não irá funcionar! Este exemplo esta configurado para rodar em modo <b>SANDBOX</b>, ou seja, não será realizada nenhuma transação de "verdade". Após seus testes, basta substituir as url's de sandbox, pelas reais.
 ```xml
 <resources>
     <!-- we are using pagseguro's sandbox values here. -->
