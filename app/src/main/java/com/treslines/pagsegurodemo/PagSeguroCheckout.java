@@ -62,7 +62,7 @@ public class PagSeguroCheckout {
         String xml = "<?xml version=\"1.0\" encoding=\"ISO-8859-1\" standalone=\"yes\"?>\n" +
                 "<checkout>\n" +
                 "    <currency>%s</currency>\n" +
-                redirectUrl!=null?"<redirectURL>%s</redirectURL>\n":"" +
+                (redirectUrl!=null?"<redirectURL>%s</redirectURL>\n":"") +
                 "    <items>\n" +
                 buildPagSeguroItemsXml() +
                 "    </items>\n" +
