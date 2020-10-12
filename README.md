@@ -94,6 +94,6 @@ MIT License
 <b>Ricardo Ferreira</b>
 Software Engineer at CESAR <a href="http://www.cesar.org.br">http://www.cesar.org.br</a>
 Instagram: ricardo7307
-Twitter: ricardo_7307
+Twitter: r_i_c_a_r_d_o_f
 Blog: <a href="http://www.cleancodedevelopment-qualityseal.blogspot.com.br">http://www.cleancodedevelopment-qualityseal.blogspot.com.br</a>
 </pre>
